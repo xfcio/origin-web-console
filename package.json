@@ -60,6 +60,7 @@
     "node": ">=0.10.0"
   },
   "scripts": {
+    "start":"grunt server",
     "test": "grunt test",
     "postinstall": "node test/upgrade-selenium.js && node_modules/protractor/bin/webdriver-manager update"
   }
